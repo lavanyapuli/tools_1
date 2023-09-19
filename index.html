@@ -1,0 +1,94 @@
+<html>
+    <head>
+    <title>painting tools</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: gray;">
+    <div id="parent">
+
+        <div id="container">
+         <label><h3>Tools</h3></label>
+        
+        <h3 id="text"></h3>
+         <label for="check1" id=""><img src="brush.png"  id="brush"  > 
+            <input type="radio" name ='b1' id = 'check1' onchange="function1()"> Brush
+         </input></label><br>
+
+         <label for="check2" id=""> <img src="pen.png"  id="pen"  >
+             <input type="radio" name ='b1' id = 'check2' onchange="function2()"> Pen
+         </input></label><br>
+
+         <label for="check3" id=""> <img src="eraser.png"  id="eraser"  > 
+            <input type="radio" name ='b1' id = 'check3' onchange="function3()"> Eraser
+         </input></label><br>
+        
+         <label for="check4" id=""> <img src="fill_color.png"  id="fill_color"  > 
+            <input type="radio" name ='b1' id = 'check4' onchange="function4()"> Fill Color
+         </input></label><br>
+         <br>
+
+            <input type="range"  name="ageInputName" id="ageInputId" value="5"
+            min="1" max="10" oninput="ageOutputId.value=ageInputId.value">
+            <output id="ageOutputId"></output>
+        </label>
+           </label><br>
+           <label> <h3>colors</h3></label>
+           <div class="row colors">
+            <ul class="options">
+                <li class="option"></li>
+                <li class="option" ></li>
+                <li class="option"></li>
+                <li class="option"></li>
+                <li class="option"></li>
+                <input type="color" id="colorpicker" value="#fff23">
+            </ul> 
+            </div>
+        
+        <center>
+        <button id="clear-button" > Clear Canvas</button>
+
+    </center>
+        </div>
+        
+       
+        <div>
+            <canvas id="canvas" class= "brush-container"> </canvas>
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+ 
+  
+
+
+  
+
+

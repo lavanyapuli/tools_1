@@ -1,0 +1,110 @@
+#myCanvas {
+  border-width: 10px;
+  background-color: white;
+  border-style: ridge;
+  border-color: darkkhaki;
+  align-items: center;
+  float: left;
+}
+#container{
+  float: left;
+  background-color:rgb(201, 184, 163);
+  width: 280px;
+  height: 600px;
+  border: solid black;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#canvas
+{
+float: left;
+width: 900px;
+height: 600px;
+border: solid black;
+margin-left: 55px;
+margin-top: 20px;
+background-color:whitesmoke;
+}
+body{
+background-color: gray;
+}
+#brush{
+width: 35px;
+height: 25px;
+}
+#pen{
+width: 35px;
+height: 25px;
+}
+#eraser{
+width: 35px;
+height: 25px;
+}
+#fill_color{
+  width: 35px;
+  height: 25px;
+  }
+
+label{
+margin: 10px;
+}
+.colors .option{
+height: 25px;
+width: 25px;
+background-color: red;
+border-radius: 50%;
+border: 2px solid white;
+}
+.colors .option:nth-child(1){
+background-color:black;
+
+}
+.colors .option:nth-child(2){
+background-color: red;
+
+}
+.colors .option:nth-child(3){
+  background-color: green;
+  }
+  .colors .option:nth-child(4){
+    background-color: orange;
+  }
+  .colors .option:nth-child(5){
+    background-color: violet;
+    }
+
+.colors .options{
+display: flex;
+justify-content:space-evenly;
+list-style-type: none;
+
+}
+.colors .option:hover:before{
+position: absolute;
+content: " ";
+height: 12px;
+width: 12px;
+
+
+
+
+}
+#colorpicker{
+border-radius: 50%;
+height: 25px;
+width: 25px;
+}
+#clear-button{
+margin: 15px;
+padding: 10px;
+background: black;
+color: white;
+border: 3px lightseagreen solid;
+border-radius: 15px;
+}
+#clear-button:hover{
+background-color:brown;
+width: 120px;
+height: 40px;
+}
+
